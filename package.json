@@ -1,0 +1,20 @@
+{
+  "name": "markivo",
+  "version": "1.0.0",
+  "description": "Premium Progressive Web App E-commerce Marketplace",
+  "private": true,
+  "workspaces": [
+    "apps/frontend",
+    "apps/backend"
+  ],
+  "scripts": {
+    "dev": "yarn workspace apps/frontend dev & yarn workspace apps/backend dev",
+    "build": "yarn workspace apps/frontend build && yarn workspace apps/backend build",
+    "start": "yarn workspace apps/backend start & yarn workspace apps/frontend start",
+    "lint": "yarn workspace apps/frontend lint && yarn workspace apps/backend lint",
+    "type-check": "yarn workspace apps/frontend type-check && yarn workspace apps/backend type-check"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  }
+}
