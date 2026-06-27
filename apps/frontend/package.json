@@ -1,0 +1,53 @@
+{
+  "name": "markivo-frontend",
+  "version": "1.0.0",
+  "description": "Markivo PWA Frontend",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "export": "next export"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/node": "^20.0.0",
+    "tailwindcss": "^3.3.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0",
+    "axios": "^1.6.0",
+    "socket.io-client": "^4.7.0",
+    "@reduxjs/toolkit": "^1.9.0",
+    "react-redux": "^8.1.0",
+    "zustand": "^4.4.0",
+    "react-hot-toast": "^2.4.0",
+    "framer-motion": "^10.16.0",
+    "recharts": "^2.10.0",
+    "react-icons": "^4.12.0",
+    "next-pwa": "^5.6.0",
+    "stripe": "^14.0.0",
+    "react-paypal-js": "^8.1.0",
+    "date-fns": "^2.30.0",
+    "react-hook-form": "^7.48.0",
+    "zod": "^3.22.0",
+    "@hookform/resolvers": "^3.3.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "dnd-core": "^16.0.1",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "html2canvas": "^1.4.1",
+    "next-auth": "^4.24.0"
+  },
+  "devDependencies": {
+    "@types/react-beautiful-dnd": "^13.1.5",
+    "eslint": "^8.52.0",
+    "eslint-config-next": "^14.0.0"
+  }
+}
